@@ -8,7 +8,7 @@ body{
 
 h1{
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 2.4vw;
   color: 15161A;
   font-family: 'Hedvig Letters Serif', Times, serif;
 }
@@ -342,22 +342,22 @@ html {
 /* -------- CASE STUDIES -------- */
 /* ------------------------------ */
 
-#case-title{
+.case-title{
   margin-top: 5vw;
   position:absolue;
-  margin-left: -43vw;
+  margin-left: -46vw;
 }
 
 #case-container{
-  margin-left: -43vw;
-  height:40vw;
+  margin-left: -22vw;
+  /* height:40vw; */
   justify-content: flex-start; 
   align-items: center; 
   gap: 5vw; 
   display: inline-flex;
   padding-left: calc((100vw - 22vw - 22vw - 22vw - 5vw - 5vw) / 2);
-  margin-top: -8vw;
-  position:absolute;
+  /* margin-top: -8vw; */
+  /* position:absolute; */
 }
 
 #case-container a{
@@ -389,7 +389,7 @@ html {
 #pathatpenn{
   background-image: url('./images/p@pmock.png'); 
   background-position-y: -0.8vw;
-  background-color: D7DBEB;
+  background-color: #D7DBEB;
 }
 
 .case-text{
