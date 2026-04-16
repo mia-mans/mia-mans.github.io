@@ -6,14 +6,42 @@ body{
     font-family: Helvetica Neue, sans-serif;
 }
 
-h1 {
+/* h1 {
     color: #FFD1D1; 
-    font-size: 5vw; 
+    font-size: 4vw; 
     font-family: Modak, sans-serif; 
     font-weight: 400; 
     word-wrap: break-word;
-    -webkit-text-stroke: 5px #D31A1A;
+    -webkit-text-stroke: 4px #D31A1A;
     paint-order: stroke fill;
+} */
+
+h1{
+    color: #000000;
+    background-color: #E5E5EA;
+    font-size: 2.2vw; 
+    padding: 2vh 2vw;
+    font-family: DM sans, sans-serif; 
+    font-weight: 500; 
+    border-radius: 2vw 2vw 2vw 0vw;
+    display: table;
+    max-width: 60%;
+    margin-left: 0;
+}
+
+h2 {
+    color: #ffffff; 
+    background-color: #007AFF;
+    font-size: 2.2vw; 
+    padding: 2vh 2vw;
+    /* margin-top: -4vh; */
+    font-family: DM sans, sans-serif; 
+    font-weight: 500; 
+    border-radius: 2vw 2vw 0vw 2vw;
+    display: table;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 p {
@@ -22,19 +50,64 @@ p {
     font-family: DM Sans, sans-serif; 
     font-weight: 600; 
     word-wrap: break-word;
-    margin-top: -5vh;
+    margin-top: 10vh;
+}
+
+html {
+    scroll-behavior: smooth; 
 }
 
 
 #cover{
+
     position:absolute;
-    width: 50vw;
-    margin-top: 15vh;
-    margin-left:25vw;
+    width: 60vw;
+    margin-top: 10vh;
+    margin-left:20vw;
     z-index: 0;
 }
 
 
+/* ------------------------------------ */
+/* -------------DOWNLOADING------------ */
+/* ------------------------------------ */
+/* 
+#download-sect{
+  margin-top: calc((100vh / 12 + 0.2vh) + 100vh);
+  position:absolute;
+  margin-left:20vw;
+  width: 60vw;
+  height:calc(100vh - (100vh / 12) - 0.2vh);
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* ------------------------------------ */
+/* -------------SCROLL ARROW----------- */
+/* ------------------------------------ */
+#scroll{
+  position:absolute;
+  margin-left: calc((100vw - 3vw) / 2);
+  width:3vw;
+  margin-top: 70vh;
+  z-index: 10;
+}
+#scroll img{
+  width: 100%;
+}
+
+
+#intro-content{
+  width:60vw; 
+  height: 30vw; 
+  position:relative;
+  /* margin-top: calc(40vh - 30vw/2); */
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 7vw; 
+  display: inline-flex;
+}
 
 /* ------------------------------------ */
 /* ------------NARROW SCREEN----------- */
