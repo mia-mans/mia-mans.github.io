@@ -10,14 +10,67 @@
     </head>
 
 <body>
+    <div id="banner">
+        <div id="banner-name">
+            MIA MANSFIELD
+        </div>
+        <div id="banner-class">
+            PIXEL 2 PRINT
+        </div>
+    </div>
+    
     <div id="cover">
-        <h1>need more tomatoes?</h1>
-        <h2>download digital versions!</h2>
-        <p>Long-press each tomato to save the PNG, or download a ZIP file of all of them at once.  
-        </br>
-        </br>
-            Convert them to iMessage stickers to digitally throw at your friends, post them in the comment 
-            sections of bad twitter takes, or use them to cover your face in those terrible candids from your boyfriend.</p>
+        <h1 class="sent">need more tomatoes?</h1>
+        <h1 class="recieved">download digital versions!</h1>
+        <div id="message-tomato1">
+            <img src="images/dsgn2260-tomatoes/splat.png">
+        </div>
+        <div id="message-tomato2">
+            <img src="images/dsgn2260-tomatoes/yellow1.png">
+        </div>
+        <h1 class="sent">Convert them to iMessage stickers, post them in comment sections, 
+            or use them to cover your face in the terrible candids your boyfriend took.</h1>
+
+        <p>Long-press each tomato to save the PNG, or download a ZIP file of all of them at once.  </p>
+
+        <div id="orange1">
+            <img src="images/dsgn2260-tomatoes/orange1.png">
+        </div>
+        <div id="orange2">
+            <img src="images/dsgn2260-tomatoes/orange2.png">
+        </div>
+        <div id="red1">
+            <img src="images/dsgn2260-tomatoes/red1.png">
+        </div>
+        <div id="red2">
+            <img src="images/dsgn2260-tomatoes/red2.png">
+        </div>
+        <div id="red3">
+            <img src="images/dsgn2260-tomatoes/red3.png">
+        </div>
+        <div id="yellow2">
+            <img src="images/dsgn2260-tomatoes/yellow2.png">
+        </div>
+        <div id="yellow3">
+            <img src="images/dsgn2260-tomatoes/yellow3.png">
+        </div>
+        <div id="yellow4">
+            <img src="images/dsgn2260-tomatoes/yellow4.png">
+        </div>
+
+        <button class="button" onclick="downloadFile()">
+            <h1>I want them all!</h1>
+        </button>
+
+        <script>
+        function downloadFile() {
+            const link = document.createElement('a');
+            link.href = 'images/dsgn2260-tomatoes/all_tomatoes.zip';
+            link.download = 'all_tomatoes.zip';
+            link.click();
+        }
+        </script>
+
     </div>
 
     <!-- <div id="scroll">

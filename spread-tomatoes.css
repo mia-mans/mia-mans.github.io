@@ -1,112 +1,228 @@
 body{
-    background-color: FFF9ED;
+    background-color: #FFF9ED;
     margin:0;
     font-weight: 400;
-    color: 15161A;
+    color: #15161A;
     font-family: Helvetica Neue, sans-serif;
 }
 
-/* h1 {
-    color: #FFD1D1; 
-    font-size: 4vw; 
-    font-family: Modak, sans-serif; 
-    font-weight: 400; 
-    word-wrap: break-word;
-    -webkit-text-stroke: 4px #D31A1A;
-    paint-order: stroke fill;
-} */
-
 h1{
+    font-family: DM sans, sans-serif; 
+    font-weight: 500;
+    font-size: 1.8vw; 
+}
+
+.sent{
     color: #000000;
     background-color: #E5E5EA;
-    font-size: 2.2vw; 
     padding: 2vh 2vw;
-    font-family: DM sans, sans-serif; 
-    font-weight: 500; 
     border-radius: 2vw 2vw 2vw 0vw;
     display: table;
     max-width: 60%;
     margin-left: 0;
+    text-align: left;
 }
 
-h2 {
+.recieved{
     color: #ffffff; 
     background-color: #007AFF;
-    font-size: 2.2vw; 
     padding: 2vh 2vw;
-    /* margin-top: -4vh; */
-    font-family: DM sans, sans-serif; 
-    font-weight: 500; 
     border-radius: 2vw 2vw 0vw 2vw;
     display: table;
     max-width: 60%;
+    margin-bottom: 5vh;
     margin-left: auto;
     margin-right: 0;
+    text-align: right;
 }
 
 p {
     color: #D31A1A; 
-    font-size: 1.6vw; 
+    font-size: 1.4vw; 
     font-family: DM Sans, sans-serif; 
-    font-weight: 600; 
+    font-weight: 400; 
     word-wrap: break-word;
-    margin-top: 10vh;
 }
 
 html {
     scroll-behavior: smooth; 
 }
 
+#banner{
+    width: 100vw;
+    height: 6vh;
+    border-bottom: 0.1vw solid #f4ecdb;
+    color: #D31A1A; 
+    font-size: 1.5vw; 
+    font-family: DM Sans, sans-serif; 
+    font-weight: 300; 
+    margin-top: 2.5vh;
+}
+
+#banner-name{
+    position:absolute;
+    margin-left: 3vw;
+}
+
+#banner-class{
+    position:absolute;
+    margin-left: 88vw;
+}
 
 #cover{
-
-    position:absolute;
+    position:relative;
     width: 60vw;
     margin-top: 10vh;
     margin-left:20vw;
     z-index: 0;
+    text-align: center;
 }
 
-
-/* ------------------------------------ */
-/* -------------DOWNLOADING------------ */
-/* ------------------------------------ */
-/* 
-#download-sect{
-  margin-top: calc((100vh / 12 + 0.2vh) + 100vh);
-  position:absolute;
-  margin-left:20vw;
-  width: 60vw;
-  height:calc(100vh - (100vh / 12) - 0.2vh);
-  justify-content: center;
-  align-items: center;
-} */
-
-
-/* ------------------------------------ */
-/* -------------SCROLL ARROW----------- */
-/* ------------------------------------ */
-#scroll{
-  position:absolute;
-  margin-left: calc((100vw - 3vw) / 2);
-  width:3vw;
-  margin-top: 70vh;
-  z-index: 10;
-}
-#scroll img{
-  width: 100%;
+#cover p{
+    margin-top: 10vh;
 }
 
+#message-tomato1{
+    position: absolute;
+    margin-top: -20vh;
+    margin-left:28vw;
+    width: 10vw;
+}
 
-#intro-content{
-  width:60vw; 
-  height: 30vw; 
-  position:relative;
-  /* margin-top: calc(40vh - 30vw/2); */
-  justify-content: flex-start; 
-  align-items: center; 
-  gap: 7vw; 
-  display: inline-flex;
+#message-tomato1 img{
+    width: 100%;
+    transform: rotate(100deg);
+}
+
+#message-tomato2{
+    position: absolute;
+    margin-top: -8vh;
+    margin-left:52vw;
+    width: 8vw;
+}
+
+#message-tomato2 img{
+    width: 100%;
+    transform: rotate(-20deg);
+}
+
+/* ------------------------------------ */
+/* ---------INDIVIDUAL TOMATOES-------- */
+/* ------------------------------------ */
+
+#orange1{
+    position: absolute;
+    margin-top: -70vh;
+    margin-left:-16vw;
+    width: 15vw;
+}
+
+#orange1 img{
+    width: 100%;
+    transform: rotate(-20deg);
+}
+
+#orange2{
+    position: absolute;
+    margin-top: -60vh;
+    margin-left:68vw;
+    width: 10vw;
+}
+#orange2 img{
+    width: 100%;
+    transform: rotate(30deg);
+}
+
+#red1{
+    position: absolute;
+    margin-top: -52vh;
+    margin-left:0vw;
+    width: 10vw;
+}
+#red1 img{
+    width: 100%;
+}
+
+#red2{
+    position: absolute;
+    margin-top: -5vh;
+    margin-left:60vw;
+    width: 18vw;
+}
+#red2 img{
+    width: 100%;
+    transform: rotate(30deg);
+}
+
+#red3{
+    position: absolute;
+    margin-top: -1vh;
+    margin-left:-3vw;
+    width: 10vw;
+}
+#red3 img{
+    width: 100%;
+}
+
+#yellow2{
+    position: absolute;
+    margin-top: -30vh;
+    margin-left:-13vw;
+    width: 12vw;
+}
+#yellow2 img{
+    width: 100%;
+}
+
+#yellow3{
+    position: absolute;
+    margin-top: -75vh;
+    margin-left:43vw;
+    width: 15vw;
+}
+#yellow3 img{
+    width: 100%;
+    transform: rotate(30deg);
+}
+
+#yellow4{
+    position: absolute;
+    margin-top: -25vh;
+    margin-left:40vw;
+    width: 15vw;
+}
+#yellow4 img{
+    width: 100%;
+    transform: rotate(-40deg);
+}
+
+/* ------------------------------------ */
+/* ---------ZIP DOWNLOAD BUTTON-------- */
+/* ------------------------------------ */
+.button {
+    color: #ffffff;
+    background-color: #D31A1A;
+    border: none;
+    border-radius: 1vw;
+    width: 20vw;
+    cursor: pointer;
+    box-shadow: 0 0.3vw 0 #8f1010;
+    transition: all 0.1s ease;
+    margin-top: 2vh;
+}
+
+.button h1{
+    padding: 0.6vw 0vw;
+    font-size: 1.5vw;
+}
+
+.button:hover {
+    background-color: #e52a2a;
+}
+
+.button:active {
+    box-shadow: 0 2px 0 #8f1010;
+    transform: translateY(4px);
 }
 
 /* ------------------------------------ */
@@ -114,12 +230,17 @@ html {
 /* ------------------------------------ */
 @media only screen and (max-aspect-ratio: 1/1){
     h1 {
-        font-size: 10vw;
+        font-size: 7vw;
+        border-radius: 4vw 4vw 4vw 0vw;
+    }
+
+    h2 {
+        font-size: 7vw;
+        border-radius: 4vw 4vw 0vw 4vw;
     }
 
     p {
-        font-size: 3.5vw;
-        margin-top: 0;
+        font-size: 3.8vw;
     }
 
     #cover {
